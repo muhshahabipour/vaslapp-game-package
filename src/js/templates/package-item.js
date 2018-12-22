@@ -15,9 +15,9 @@ export const getPackageTemplate = function (option, data) {
                                         <div class="form form-group">
                                             <label for="point-${obj.id}">امتیاز</label>
                                             <div class="form-select">
-                                                <select class="form-entry" name="packageModels[${i}].pointId" id="point-${obj.id}" value="${obj.point}" data-id="${obj.id}" data-name="point">
+                                                <select class="form-entry" name="packageModels[${i}].pointId" id="point-${obj.id}" data-id="${obj.id}" data-name="point">
                                                     <option value="">یک متغیر را انتخاب کنید</option>
-                                                    ${typeof option !== "undefined" ? option.map(item => `<option value="${item.name}" ${obj.point == item.name ? `selected="selected"`: ``}>${item.title}</option>`).join('') : ``}
+                                                    ${typeof option !== "undefined" ? option.map(item => `<option value="${item.id}" ${obj.point == item.id ? `selected="selected"`: ``}>${item.title}</option>`).join('') : ``}
                                                 </select>
                                             </div>
                                         </div>
