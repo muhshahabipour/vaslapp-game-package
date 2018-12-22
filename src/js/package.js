@@ -220,19 +220,19 @@ export default gamePackage;
 // var b = {
 //     data: [{
 //         point: "$XP_5bc5891418be4900060becc3",
-//         count: "10",
+//         number: "10",
 //         price: "10000"
 //     }, {
 //         point: "$RP_5bb1e81eb6addd0007d9cb85",
-//         count: "20",
+//         number: "20",
 //         price: "20000"
 //     }, {
 //         point: "$RP_5b964b342ced29000745650a",
-//         count: "30",
+//         number: "30",
 //         price: "30000"
 //     }, {
 //         point: "$RP_5b964b342ced29000745650a",
-//         count: "40",
+//         number: "40",
 //         price: "40000"
 //     }],
 // }

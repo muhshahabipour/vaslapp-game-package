@@ -6,7 +6,7 @@ class PackageItem {
         this.packageItem = extend({
             id: guid(),
             point: "",
-            count: 0,
+            number: 0,
             price: 0,
         }, packageItem);
     }

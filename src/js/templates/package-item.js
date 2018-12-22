@@ -25,7 +25,7 @@ export const getPackageTemplate = function (option, data) {
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
                                         <div class="form form-group">
                                             <label for="number-${obj.id}">تعداد</label>
-                                            <input type="text" class="form-entry" name="packageModels[${i}].number" id="number-${obj.id}" value="${obj.count}" data-id="${obj.id}" data-name="count">
+                                            <input type="text" class="form-entry" name="packageModels[${i}].number" id="number-${obj.id}" value="${obj.number}" data-id="${obj.id}" data-name="number">
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
