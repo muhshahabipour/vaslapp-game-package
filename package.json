@@ -1,6 +1,6 @@
 {
   "name": "vaslapp-game-package",
-  "version": "1.0.15",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/vaslapp-game-package.js",
   "scripts": {

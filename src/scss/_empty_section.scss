@@ -1,0 +1,23 @@
+.empty-section {
+    margin-bottom: 16px;
+
+    &.empty-section-gray {
+        .empty-logo {
+            color: #D2D7D8;
+            cursor: inherit;
+        }
+
+        .empty-text {
+            color: #A5A5A5;
+            cursor: inherit;
+        }
+    }
+
+    .empty-item-wrapper {
+        text-align: center;
+
+        &:first-child {
+            margin-bottom: 8px;
+        }
+    }
+}
