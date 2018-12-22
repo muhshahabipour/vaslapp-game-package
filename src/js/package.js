@@ -171,70 +171,63 @@ var gamePackage = (function () {
 
 export default gamePackage;
 
-// var a = [{
-//     name: "$LEVEL_5b5c12b78201b400064f27ca",
-//     title: "سطح - سطح امتیاز بازی"
-// }, {
-//     name: "$LEVEL_5b964be12ced29000745650b",
-//     title: "سطح - قهرمانان"
-// }, {
-//     name: "$LEVEL_5b975a4c3b2d8d00079378be",
-//     title: "سطح - lgxpGroups"
-// }, {
-//     name: "$LEVEL_5b98a1c63b2d8d00079378c4",
-//     title: "سطح - سطح 1"
-// }, {
-//     name: "$XP_5b5d9f446009270007434167",
-//     title: "امتیازبندی بازی"
-// }, {
-//     name: "$RP_5b964b342ced29000745650a",
-//     title: "gem"
-// }, {
-//     name: "$XP_5b975a273b2d8d00079378bd",
-//     title: "lgXP"
-// }, {
-//     name: "$XP_5ba61de2e0371700066d45df",
-//     title: "gem"
-// }, {
-//     name: "$RP_5bb1e81eb6addd0007d9cb85",
-//     title: "exir"
-// }, {
-//     name: "$XP_5bb8b8998fcc2c000747e41e",
-//     title: "Overal"
-// }, {
-//     name: "$XP_5bb9a2308fcc2c000747e41f",
-//     title: "inc10points"
-// }, {
-//     name: "$RP_5bbddfe5f8b38c00077a9c68",
-//     title: "gem"
-// }, {
-//     name: "$XP_5bbde09df8b38c00077a9c69",
-//     title: "question xp point"
-// }, {
-//     name: "$XP_5bc5891418be4900060becc3",
-//     title: "fee"
-// }]
+// var a = [
+//   {
+//     "id": "5b5d9f446009270007434167",
+//     "title": "امتیازبندی بازی"
+//   },
+//   {
+//     "id": "5b964b342ced29000745650a",
+//     "title": "gem"
+//   },
+//   {
+//     "id": "5b975a273b2d8d00079378bd",
+//     "title": "lgXP"
+//   },
+//   {
+//     "id": "5ba61de2e0371700066d45df",
+//     "title": "gem"
+//   },
+//   {
+//     "id": "5bb1e81eb6addd0007d9cb85",
+//     "title": "exir"
+//   },
+//   {
+//     "id": "5bb8b8998fcc2c000747e41e",
+//     "title": "Overal"
+//   },
+//   {
+//     "id": "5bb9a2308fcc2c000747e41f",
+//     "title": "inc10points"
+//   },
+//   {
+//     "id": "5bbddfe5f8b38c00077a9c68",
+//     "title": "gem"
+//   },
+//   {
+//     "id": "5bbde09df8b38c00077a9c69",
+//     "title": "question xp point"
+//   },
+//   {
+//     "id": "5bc5891418be4900060becc3",
+//     "title": "fee"
+//   },
+//   {
+//     "id": "5c18b1009855f40007378f3f",
+//     "title": "hadi"
+//   }
+// ]
 
 // gamePackage.setOption(a);
 
 // var b = {
-//     data: [{
-//         pointId: "$XP_5bc5891418be4900060becc3",
-//         number: "10",
-//         price: "10000"
-//     }, {
-//         pointId: "$RP_5bb1e81eb6addd0007d9cb85",
-//         number: "20",
-//         price: "20000"
-//     }, {
-//         pointId: "$RP_5b964b342ced29000745650a",
-//         number: "30",
-//         price: "30000"
-//     }, {
-//         pointId: "$RP_5b964b342ced29000745650a",
-//         number: "40",
-//         price: "40000"
-//     }],
+//     data: [
+//         {
+//             "pointId": "5b964b342ced29000745650a",
+//             "number": 10,
+//             "price": 5000
+//         }
+//     ],
 // }
 
 // gamePackage.setData(b.data)
